@@ -1,0 +1,27 @@
+<div class="card-container">
+    <table class="table">
+        <thead>
+            <tr class="title-table">
+                <th scope="col">#</th>
+                <th scope="col">Nombre común</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Clima</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let plant of plants; index as i">
+                <th scope="row">{{ i + 1 }}</th>
+                <td>{{ plant.nombre_comun }}</td>
+                <td>{{ plant.tipo}}</td>
+                <td>{{ plant.clima}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <div class='total'>
+        Total plantas de interior: {{totalInternal}}
+        <br>
+        Total plantas de exterior: {{totalExternal}}
+    </div>
+
+</div>

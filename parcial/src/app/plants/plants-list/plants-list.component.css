@@ -1,0 +1,45 @@
+.table {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 791.9998779296875px;
+    height: 335px;
+    position: static;
+    left: 98px;
+    top: 467px;
+}
+
+.title-table {
+    background-color: #333a40;
+    height: 49px;
+    width: 790.9961547851562px;
+    color: #ffffff;
+    text-align: left;
+    vertical-align: text-top;
+    font-size: 18px;
+    font-family: Inter;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+}
+
+table,
+th {
+    border: 1px solid #b3b3b3 !important;
+    text-align: center;
+}
+
+table,
+td {
+    border: 1px solid #b3b3b3 !important;
+}
+
+.total {
+    color: #000000;
+    text-align: left;
+    vertical-align: text-top;
+    font-size: 20px;
+    font-family: Inter;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+    width: 617px;
+}
